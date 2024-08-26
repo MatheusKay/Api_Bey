@@ -37,7 +37,7 @@ const registerUser = async (req, res) => {
     const user = new User({
         name,
         email,
-        password: passwordHash
+        password: passwordHash,
     })
 
     try {
